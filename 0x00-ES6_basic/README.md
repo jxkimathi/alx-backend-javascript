@@ -12,13 +12,13 @@
 
 * [5-spread-operator.js](./5-spread-operator.js) - Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
 
-*** [6-string-interpolation.js](./6-string-interpolation.js) - Rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
+* [6-string-interpolation.js](./6-string-interpolation.js) - Rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
 
-*** [7-getBudgetObject.js](./7-getBudgetObject.js) - Notice how the keys and the variable names are the same? Modify the following function’s budget object to simply use the keyname instead.
+* [7-getBudgetObject.js](./7-getBudgetObject.js) - Notice how the keys and the variable names are the same? Modify the following function’s budget object to simply use the keyname instead.
 
 * [8-getBudgetCurrentYear.js](./8-getBudgetCurrentYear.js) - Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object.
 
-*** [9-getFullBudget.js](./9-getFullBudget.js) - Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object.
+* [9-getFullBudget.js](./9-getFullBudget.js) - Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object.
 
 * [10-loops.js](./10-loops.js) - Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
 

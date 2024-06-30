@@ -1,8 +1,11 @@
 export default function guardrail(mathfunction){
-  let queue = [];
-  queue += mathfunction() + ', ' + "'Guardrail was proessed'";
-  return Array(queue);
+  const queue = [];
+  try {
+    queue.push(mathfunction);
+  } catch (error) {
+    queue.push(`Error: ${error.message}`);
+  } finally {
+    queue.push('Guardrail was processed');
+  }
+  return queue;
 }
-
-console.log(guardrail(() => { return divideFunction(10, 2)}));
-console.log(guardrail(() => { return divideFunction(10, 0)}));

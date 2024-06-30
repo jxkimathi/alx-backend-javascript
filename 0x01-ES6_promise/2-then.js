@@ -1,14 +1,7 @@
-function handleResponseFromAPI(promise) {
-  const myPromise = new Promise((resolve, reject) => {
-    resolve(`status: 200, body: 'Success'`);
-    reject(``);
-  });
-  
-  let resolution = myPromise
-  .then(console.log(`Got a response from the API`));
-  
-  return resolution;
+export default function handleResponseFromAPI(promise) {
+  const resolve = { status: 200, body: 'success'};
+  return promise
+    .then(() => resolve)
+    .catch(() => new Error)
+    .finally(() => { console.log('Got a resonse fromthe API'); })
 }
-
-const promise = Promise.resolve();
-handleResponseFromAPI(promise);

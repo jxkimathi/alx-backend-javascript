@@ -58,7 +58,7 @@ Using the function prototype below
             Got a response from the API
             bob@dylan:~$ 
 
-*** [3-all.js](./3-all.js)
+* [3-all.js](./3-all.js)
 In this file, import `uploadPhoto` and `createUser` from `utils.js`
 
     - Knowing that the functions in utils.js return promises, use the prototype below to collectively resolve all promises and log `body` `firstName` `lastName` to the console.
@@ -122,7 +122,7 @@ Write and export a function named `uploadPhoto`. It should accept one argument `
                 ..
             bob@dylan:~$ 
 
-*** [6-final-user.js](./6-final-user.js)
+* [6-final-user.js](./6-final-user.js)
 Import `signUpUser` from `4-user-promise.js` and `uploadPhoto` from `5-photo-reject.js`.
 
 Write and export a function named `handleProfileSignup`. It should accept three arguments `firstName` (string), `lastName` (string), and `fileName` (string). The function should call the two other functions. When the promises are all settled it should return an array with the following structure:
@@ -145,7 +145,7 @@ Write and export a function named `handleProfileSignup`. It should accept three 
         Promise { <pending> }
         bob@dylan:~$ 
 
-*** [7-load_balancer.js](./7-load_balancer.js)
+* [7-load_balancer.js](./7-load_balancer.js)
 Write and export a function named `loadBalancer`. It should accept two arguments `chinaDownload` (Promise) and `USDownload` (Promise).
 
 The function should return the value returned by the promise that resolved the first.

@@ -9,3 +9,5 @@ This is the first repository as i start my specializaion in Backend development 
 * [0x02. ES6 classes](./0x02-ES6_classes/) - Learning about classes in the ES6 module.
 
 * [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation/) - Tackling array, set, map and weakMap data structures.
+
+* [0x04-TypeScript](./0x04-TypeScript/) - Learning how to work with the DOM and TypeScript.

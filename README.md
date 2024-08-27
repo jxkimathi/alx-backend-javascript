@@ -11,3 +11,5 @@ This is the first repository as i start my specializaion in Backend development 
 * [0x03-ES6_data_manipulation](./0x03-ES6_data_manipulation/) - Tackling array, set, map and weakMap data structures.
 
 * [0x04-TypeScript](./0x04-TypeScript/) - Learning how to work with the DOM and TypeScript.
+
+* [0x05-Node_JS_basic](./0x05-Node_JS_basic/) - Learning the basics of Node.
